@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: springcloud-oauth-gateway
+
+cloud:
+  nacos:
+    discovery:
+      #指定nacos server的地址
+      server-addr: 127.0.0.1:8848
